@@ -38,6 +38,8 @@ Good commit habits:
 - Avoid giant “misc fixes” commits unless absolutely necessary.
 - This helps maintain a clean project history and makes debugging far easier.
 
+Please follow the conventional commits guidelines in your commit titles https://www.conventionalcommits.org/en/v1.0.0/
+
 ## 🔀 Opening a Pull Request
 When your branch is ready:
 
