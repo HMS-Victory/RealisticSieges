@@ -255,7 +255,7 @@ function wesnoth.wml_actions.RSM_recruit(cfg)
         end
         local function draw_unit()
             local tmp=wesnoth.create_unit { 
-                type=units[listDefinition.selected_index].name,
+                type=units[listDefinition.selected_index].id,
                 side=wesnoth.current_side
             }
             dialog.recruit_details.unit = tmp
